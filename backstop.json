@@ -1,0 +1,66 @@
+{
+  "id": "trumpstore-visual-tests",
+  "viewports": [
+    {
+      "label": "desktop",
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "label": "mobile",
+      "width": 375,
+      "height": 812
+    },
+	{
+      "label": "tablet",
+      "width": 1024,
+      "height": 768
+    }
+
+  ],
+
+  "scenarios": [
+    {
+      "label": "Home Page",
+      "url": "https://mcstaging.trumpstore.com",
+      "selectors": ["document"],
+      "removeSelectors": [".dynamic-element"],
+      "delay": 2000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "PLP - 45-47",
+      "url": "https://mcstaging.trumpstore.com/collections/45-47",
+      "selectors": ["document"],
+      "removeSelectors": [".dynamic-element"],
+      "delay": 2000,
+      "misMatchThreshold": 0.1
+    },
+    {
+      "label": "PDP - teddy",
+      "url": "https://mcstaging.trumpstore.com/classic-teddy-bear-2",
+      "selectors": ["document"],
+      "delay": 2000,
+      "misMatchThreshold": 0.1
+    }
+  ],
+
+  "paths": {
+    "bitmaps_reference": "tstore/visual/reference",
+    "bitmaps_test": "tstore/visual/test",
+    "html_report": "tstore/visual/html_report",
+    "ci_report": "tstore/visual/ci_report"
+  },
+
+  "report": ["browser", "CI"],
+  "engine": "puppeteer",
+  "engineOptions": {
+    "args": ["--no-sandbox"]
+  },
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "debug": false,
+  "debugWindow": false
+}
+
+

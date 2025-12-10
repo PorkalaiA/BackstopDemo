@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="9" failures="3" errors="3" skipped="0">
+  <testsuite name="BackstopJS" tests="9" failures="3" errors="3" skipped="0">
+    <testcase classname="document" name=" ›› Home Page">
+      <failure message="Design deviation ›› Home Page (document) component"/>
+      <error message="Design deviation ›› Home Page (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› Home Page">
+      <failure message="Design deviation ›› Home Page (document) component"/>
+      <error message="Design deviation ›› Home Page (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› Home Page"/>
+    <testcase classname="document" name=" ›› PLP - 45-47">
+      <failure message="Design deviation ›› PLP - 45-47 (document) component"/>
+      <error message="Design deviation ›› PLP - 45-47 (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› PLP - 45-47"/>
+    <testcase classname="document" name=" ›› PLP - 45-47"/>
+    <testcase classname="document" name=" ›› PDP - teddy"/>
+    <testcase classname="document" name=" ›› PDP - teddy"/>
+    <testcase classname="document" name=" ›› PDP - teddy"/>
+  </testsuite>
+</testsuites>
