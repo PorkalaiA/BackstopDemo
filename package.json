@@ -1,0 +1,28 @@
+{
+  "name": "backstopdemo2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PorkalaiA/backstopjs-trumpstore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/PorkalaiA/backstopjs-trumpstore/issues"
+  },
+  "homepage": "https://github.com/PorkalaiA/backstopjs-trumpstore#readme",
+  "devDependencies": {
+    "backstopjs": "^6.3.25"
+  }
+  "scripts": {
+  "test:backstop": "backstop test",
+  "approve:backstop": "backstop approve"
+}
+}
